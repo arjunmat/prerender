@@ -1,7 +1,7 @@
 {
   "name": "arjunmat/prerender",
-  "description": "This package will submit a url to prerender.io for recaching",
-  "version": "0.1.0",
+  "description": "This package will submit a url to prerender.io for recaching. Only for Laravel.",
+  "version": "1.0.0",
   "authors": [
       {
           "name": "Arjun Mathai",
