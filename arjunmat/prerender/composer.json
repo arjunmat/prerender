@@ -1,0 +1,23 @@
+{
+  "name": "arjunmat/prerender",
+  "description": "This package will submit a url to prerender.io for recaching",
+  "authors": [
+      {
+          "name": "Arjun Mathai",
+          "email": "arjun.mathai@gmail.com"
+      }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+          "Arjunmat\\Prerender\\PrerenderServiceProvider"
+      ],
+      "aliases": {
+          "Prerender": "Arjunmat\\Prerender\\PrerenderFacade"
+      }
+    }
+  }
+}
