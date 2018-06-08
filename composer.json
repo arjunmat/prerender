@@ -20,5 +20,11 @@
           "Prerender": "Arjunmat\\Prerender\\PrerenderFacade"
       }
     }
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Arjunmat\\Prerender\\": "src/"
+    }
   }
 }
