@@ -66,7 +66,7 @@ class Prerender {
 
     $errorMessage = "[" . date('Y-m-d H:i:s') . "] => Failed to recache url, " . $url . ". [Error Code] - " . self::$error['code'] . ", [Error Message] - " . self::$error['message'] . "\n";
 
-    file_put_contents($config['prerender.logFile'], $errorMessage, FILE_APPEND);
+    file_put_contents(config('prerender.logFile'), $errorMessage, FILE_APPEND);
 
   }
 
