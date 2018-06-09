@@ -8,9 +8,6 @@ This package can be used to send requests to Prerender.io to recache your pages 
 
 GuzzleHttp 6.0 or above
 
-```
-Give examples
-```
 
 ### Installing
 
@@ -23,7 +20,7 @@ composer require arjunmat/prerender
 After installation, publish the package to create the config file
 
 ```
-php artisan vendor:publish class=PrerenderServiceProvider
+php artisan vendor:publish --provider=PrerenderServiceProvider
 ```
 
 For Laravel5.4 and below, add the following to ```config/app.php```

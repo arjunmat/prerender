@@ -2,7 +2,9 @@
 
 namespace ArjunMat\Prerender;
 
-class PrerenderServiceProvider {
+use Illuminate\Support\ServiceProvider;
+
+class PrerenderServiceProvider extends ServiceProvider {
 
   /**
    * Bootstrap the application events.
