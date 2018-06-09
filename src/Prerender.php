@@ -92,7 +92,7 @@ class Prerender {
         self::$error['code'] = $e->getResponse()->getStatusCode();
         self::$error['message'] = $e->getResponse()->getBody()->getContents();
 
-        if($config['prerender.logToFile']) {
+        if(config['prerender.logToFile']) {
           self::writeErrorToFile($url);
         }
 
